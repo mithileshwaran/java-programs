@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        double exchangep=84.60;
+        
+        Scanner sc=new Scanner(System.in);
+        
+        
+    System.out.print("Enter the amount in us dollars: ");
+    double us=sc.nextDouble();
+   
+   double inramount=us*exchangep;
+   
+    System.out.println("Amount in dollars : "+ us);
+    System.out.println("Amount in rupees : "+ inramount);
+    }
+}
