@@ -7,7 +7,7 @@ public static void main(String[]args)
 {
 
     Scanner sc=new Scanner(System.in);
-    System.out.print("Enter a alphabet:");
+    System.out.print("Enter a single alphabet:");
     char  letter=sc.next().toLowerCase().charAt(0);
     
     switch (letter)
