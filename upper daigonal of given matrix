@@ -1,0 +1,41 @@
+import java.util.*;
+
+ class massmithi{
+    
+    public static void main (String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter coulum ");// ⇕
+        System.out.println("Enter row"); // ↔
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int a[][]=new int [n][m];
+        
+        
+        System.out.println("Enter the elements one by one"); // 1 2 3 4 5 6 7 8 9
+        for(int i=0;i<n;i++)
+        for(int j=0;j<m;j++)
+        {
+        a[i][j]=sc.nextInt();
+        }
+        System.out.println("upper daigonal elements are given below:");/* your given value is 2 2 3
+                                                                                              4 5 7
+                                                                                              5 6 8 / here 5 5 3 is an upper traingle matrix*/
+                                                                                              
+
+                                                                                          
+        for(int i=0;i<n;i++)
+        for(int j=0;j<m;j++)
+        {
+            if(j>i)
+            System.out.println(a[i][j]);
+            
+        }
+    }
+}
+
+
+
+
+
+
+
