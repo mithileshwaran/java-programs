@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a whole number:");
+		int n=sc.nextInt();
+		System.out.println("The cube of the given number : "+cube(n));
+	}
+	static int cube(int m)
+	{
+	    int value;
+	    value=m*m*m;
+	    return value;
+	}
+}
