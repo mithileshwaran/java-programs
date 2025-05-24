@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Main
+{
+public static void main (String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the A value: ");
+    int a =sc.nextInt();
+    System.out.println("Enter the B value: ");
+    int b =sc.nextInt();
+    System.out.println("Enter the C value: ");
+    int c =sc.nextInt();
+    System.out.println("The Maximum of first two value is: "+maxi(a,b));
+    System.out.println("The Maximum of given three value is "+maxi(a,b,c));
+}
+static int maxi(int m ,int n)
+{
+    if(m>n)
+    return m;
+    else
+    return n;
+    
+}
+static int maxi(int  m,int n,int p)
+{
+    return maxi(maxi(m,n),p);
+}
+}
