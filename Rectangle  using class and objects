@@ -1,0 +1,26 @@
+public class Rectangle {
+    int length;
+    int width;
+
+    Rectangle(int l, int w) {
+              // Constructor to initialize values
+        length = l;
+        width = w;
+    }
+
+    int rectangleArea() {
+        return length * width;
+    }
+
+    int rectanglePerimeter() {
+        return 2 * (length + width);
+    }
+}
+
+class Rectangledemo {
+    public static void main(String[] args) {
+        Rectangle r1 = new Rectangle(10, 5); 
+        // Correct class name and constructor
+        System.out.println("The area of rectangle: " + r1.rectangleArea());
+    }
+}
