@@ -1,0 +1,20 @@
+
+class Sample {
+    static int i;
+    static int j = 2;
+    static int k;
+    static String s1;
+    static String s2 = "Welcome";
+    static boolean flag;
+}
+
+class SampleDemo {
+    public static void main(String[] args) {
+        System.out.println(Sample.i);
+        System.out.println(Sample.j);
+        System.out.println(Sample.k);
+        System.out.println(Sample.s1);
+        System.out.println(Sample.s2);
+        System.out.println(Sample.flag);
+    }
+}
