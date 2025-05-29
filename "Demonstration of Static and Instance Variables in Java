@@ -1,0 +1,19 @@
+class T {
+    String message;
+    static int count = 0;
+
+    T(String message) {
+        this.message = message;
+        count++; 
+    }
+}
+
+class Tdemo {
+    public static void main(String[] args) {
+        T t1 = new T("good morning");
+        System.out.println(t1.message + "\t" + t1.count); 
+
+        T t2 = new T("good afternoon");
+        System.out.println(t2.message + "\t" + t2.count);
+    }
+}
