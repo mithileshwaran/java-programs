@@ -1,0 +1,27 @@
+// Class definition
+class Student {
+    // Data members
+    String name;
+    int age;
+
+    // Method
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        // Creating object of Student class
+        Student s1 = new Student();
+
+        // Assigning details
+        s1.name = "Mukesh";
+        s1.age = 25;
+
+        // Calling method
+        s1.display();
+    }
+}
