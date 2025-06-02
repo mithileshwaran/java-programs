@@ -1,0 +1,22 @@
+public class Animal {
+  String name;
+ String sound;
+
+
+    void makeSound() {
+        System.out.println(name + " makes " + sound + " sound.");
+    }
+
+    
+    public static void main(String[] args) {
+      
+        Animal dog = new Animal();
+
+       
+        dog.name = "Dog";
+        dog.sound = "Bark";
+
+       
+        dog.makeSound();
+    }
+}
