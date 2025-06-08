@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class AgeChecker {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of students: ");
+        int n = sc.nextInt();
+
+        int adultCount = 0;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print("Enter age of student " + i + ": ");
+            int age = sc.nextInt();
+
+            if (age >= 18) {
+                adultCount++;
+            }
+        }
+
+        System.out.println("Total students 18 or older: " + adultCount);
+        sc.close();
+    }
+}
