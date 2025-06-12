@@ -1,0 +1,28 @@
+class A
+{
+	int i;
+	int j;
+	
+}
+class B extends A
+
+{
+	
+}
+class C extends B
+
+{
+	int k;
+}
+class demo{
+public static void main (String[] args)
+{
+	C obj=new C( );
+	obj.i=10;
+	obj.j=11;
+	obj.k=50;
+	System.out.println("The Value of I is = "+obj.i);
+	System.out.println("The Value of J is = "+obj.j);
+	System.out.println("The Value of K is = "+obj.k);
+}
+}
