@@ -1,0 +1,22 @@
+class X
+{
+	String a="java";
+}
+class Z extends X
+
+{
+	String a="cobra";
+	void display()
+	{
+		System.out.println(a);
+		System.out.println(super.a); // used to call class x
+	}
+}
+class XZ
+
+{
+	public static void main(String[] args)
+	{
+		Z z1=new Z();
+		z1.display();
+	}}
