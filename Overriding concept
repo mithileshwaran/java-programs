@@ -1,0 +1,22 @@
+class Q
+{
+	void display()
+	{
+		System.out.println("GOOD MORNING");
+	}
+}
+class R extends Q
+{
+	void display()
+	{
+		System.out.println("GOOD AFTERNOON");
+	}
+}
+class demo
+{
+	public static void main (String []args)
+	{
+		R r1=new R();
+		r1.display();
+	}
+}
