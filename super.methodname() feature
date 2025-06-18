@@ -1,0 +1,26 @@
+class c
+{
+    void display(String s)
+
+{
+    System.out.println("Class 1:"+s);
+}
+}
+
+class  d extends c{
+    void display (String s)
+    {
+        super.display(s);
+        System.out.println("Class 2:"+s);
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		c c1=new c();
+		c1.display("job 1");
+		d d1=new d();
+		d1.display("job 2");
+		
+	}
+}
